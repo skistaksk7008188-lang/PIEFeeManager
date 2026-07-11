@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIE Institute Fee Management</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>PIE Institute</h1>
+<p>Fee Management System</p>
+
+<form id="feeForm">
+
+<label>Student Name</label>
+<input type="text" id="studentName" required>
+
+<label>Roll Number</label>
+<input type="number" id="roll" required>
+
+<label>Parent Mobile</label>
+<input type="tel" id="mobile" required>
+
+<label>Class</label>
+<select id="class">
+<option>Class 11</option>
+<option>Class 12</option>
+</select>
+
+<label>Month</label>
+<select id="month">
+<option>January</option>
+<option>February</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+
+<label>Amount</label>
+<input type="number" id="amount" required>
+
+<label>Received By</label>
+<input type="text" id="teacher" required>
+
+<label>Date</label>
+<input type="date" id="date">
+
+<button type="submit">
+Save Receipt
+</button>
+
+</form>
+
+<div id="receipt"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
